@@ -1,0 +1,86 @@
+if self._invincible == True:
+                  if self._animation == 0:
+                      return 208, 121
+                  elif self._animation == 1:
+                      return 237, 121
+                  elif self._animation == 2:
+                      return 262, 121
+                  elif self._animation == 3:
+                      return 288, 121
+                  elif self._animation == 4:
+                      if self._salto == 1:
+                          return 26, 121
+                      elif self._salto == 2 or self._salto == 0:
+                          return 361, 120
+                  elif self._animation == 5:
+                      return 151, 121
+                  elif self._animation == 6:
+                      return 127, 121
+                  elif self._animation == 7:
+                      return 101, 121
+
+---------------------------------------------------------------------------
+
+if self._invincible == True:
+                  if self._c == 1:
+                      return 208, 121
+                  elif self._c == 2:
+                      return 208, 50
+                  elif self._c == 3:
+                      return 237, 121
+                  elif self._c == 4:
+                      return 238, 50
+                  elif self._c == 5:
+                      return 262, 121
+                  elif self._c == 6:
+                      return 268, 50
+                  elif self._c == 7:
+                      return 288, 121
+                  elif self._c == 8:
+                      return 298, 50
+                  elif self._c == 9:
+                      return 151, 121
+                  elif self._c == 10:
+                      return 149, 51
+                  elif self._c == 11:
+                      return 127, 121
+                  elif self._c == 12:
+                      return 121, 51
+                  elif self._c == 13:
+                      return 101, 121
+                  elif self._c == 14:
+                      return 89, 52
+
+
+-----------------------------------------------------------
+
+
+if self._invincible == True:
+                  if self._c == 1 and self._animation == 0:
+                      return 208, 50
+                  elif self._c == 2 and self._animation == 0:
+                      return 208, 121
+                  elif self._c == 3 and self._animation == 1:
+                      return 237, 121
+                  elif self._c == 4 and self._animation == 1:
+                      return 238, 50
+                  elif self._c == 5 and self._animation == 2:
+                      return 262, 121
+                  elif self._c == 6 and self._animation == 2:
+                      return 268, 50
+                  elif self._c == 7 and self._animation == 3:
+                      return 288, 121
+                  elif self._c == 8 and self._animation == 3:
+                      return 298, 50
+                  elif self._c == 9 and self._animation == 5:
+                      return 151, 121
+                  elif self._c == 10 and self._animation == 5:
+                      return 149, 51
+                  elif self._c == 11 and self._animation == 6:
+                      return 127, 121
+                  elif self._c == 12 and self._animation == 6:
+                      return 121, 51
+                  elif self._c == 13 and self._animation == 7:
+                      return 101, 121
+                  elif self._c == 14 and self._animation == 7:
+                      return 89, 52
