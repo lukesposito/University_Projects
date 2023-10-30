@@ -1,0 +1,8 @@
+reset;
+option solver gurobi;
+model Density.mod;
+data Density_1.dat;
+solve;
+display isDistinct;
+display g;
+display total_error; 
